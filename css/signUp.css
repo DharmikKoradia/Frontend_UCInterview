@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+.content{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.BoyImage{
+    margin-left: 95px;
+}
+.BoyImage img{
+    width: 566px;
+    height: 625px;
+}
+.SignUpInfo .Logo{
+    width: 385px;
+    height: 106px;
+    top: 96px;
+    left: 843px;
+    font-family: Oswald;
+    font-weight: bold;
+    font-style: Medium;
+    font-size: 65px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    color: #324D90;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.SignUpInfo{
+    margin-right: 150px;
+}
+.SignUpInfo .Info{
+    width: 411px;
+    height: 407px;
+    top: 234px;
+    left: 830px;
+    border-radius: 25px;
+    background: linear-gradient(298.02deg, #C8E4FF 7.49%, #4391F1 93.26%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.SignUpInfo .Info p{
+    margin-top: 15px;
+    width: 183px;
+    height: 29px;
+    top: 280.25px;
+    left: 943.06px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.SignUpInfo .Info input{
+    width: 327px;
+    height: 20px;
+    top: 353.22px;
+    background-color: transparent;
+    left: 874.19px;
+    padding: 5px;
+}
+.a{
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 15px;
+    color: white
+}
+.a::placeholder{
+    font-size: 15px;
+    color: white;
+}
+
+.SignUpInfo .Info button{
+    width: 338px;
+    color: white;
+    height: 38 px;
+    top: 538.22px;
+    left: 865.97px;
+    border-radius: 15px;
+    padding-top: 17px;
+    padding-right: 80px;
+    padding-bottom: 17px;
+    padding-left: 80px;
+    gap: 10px;
+    background: linear-gradient(90deg, #3462E7 0%, #093FC8 100%);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    margin-bottom: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
